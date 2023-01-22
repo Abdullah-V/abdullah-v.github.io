@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "name": "HMSC",
+            "imageURL": "https://github.com/Abdullah-V/media/blob/master/HMSC.png?raw=true",
+            "description": "📂 HMSC (How Much Stuff CLI) analyst for your files and folders",
+            "link": "https://github.com/abdullah-v/hmsc"
+        },
+        {
+            "name": "Twitter Clone",
+            "imageURL": "https://github.com/Abdullah-V/media/blob/master/twitterClone.png?raw=true",
+            "description": "🐦 Fully functional twitter clone",
+            "link": "https://github.com/abdullah-v/twitter-clone"
+        },
+        {
+            "name": "Cargoglobal",
+            "imageURL": "https://raw.githubusercontent.com/Abdullah-V/media/master/cargoglobal.png",
+            "description": "🚚 Cargoglobal is a site for sharing logistics advertisements",
+            "link": "https://github.com/abdullah-v/cargoglobal-frontend"
+        },
+        {
+            "name": "Personal Website",
+            "imageURL": "https://raw.githubusercontent.com/Abdullah-V/media/master/website.png",
+            "description": "🌐 My personal website (here)",
+            "link": "https://github.com/abdullah-v/abdullah-v.github.io"
+        },
+        {
+            "name": "Turkish Blogs",
+            "imageURL": "https://raw.githubusercontent.com/Abdullah-V/media/master/turkce-bloglar.png",
+            "description": "📄 Turkish blogs about programming, technology and career",
+            "link": "https://github.com/abdullah-v/turkce-bloglar"
+        },
+        {
+            "name": "Turkish Proverbs API",
+            "imageURL": "https://raw.githubusercontent.com/Abdullah-V/media/master/tr-proverbs-api.png",
+            "description": "🗄️ API for Turkish proverbs",
+            "link": "https://github.com/abdullah-v/turkce-atasozleri-icin-api"
+        }
+    ]
+}

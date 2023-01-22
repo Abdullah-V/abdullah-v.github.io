@@ -1,0 +1,20 @@
+{
+    "experiences": [
+        {
+            "title": "Algorithm Team Member",
+            "company": "TALOS",
+            "location": "Bursa, Turkey",
+            "date": "November 2022 - Current",
+            "logo": "talos.jpeg",
+            "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi itaque alias hic, quos ea quas placeat aliquid veritatis illo natus at voluptatibus obcaecati. Tempora a officiis ratione doloribus quam deserunt."
+        },
+        {
+            "title": "Frontend Developer",
+            "company": "Producter",
+            "location": "Remote",
+            "date": "May 2021 - January 2022 (9 months)",
+            "logo": "producter.png",
+            "summary": "- Played an active role in the development of modules for the application <br> - Made pixel perfect front-end development from design <br> - Conducting code reviews to improve code quality <br> - Served as release manager <br>"
+        }
+    ]
+}

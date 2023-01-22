@@ -34,6 +34,11 @@ html body {
   max-width: 1500px;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   cursor: pointer;
 }

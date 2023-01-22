@@ -4,32 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <script>
-      fetch("./projects.json")
-        .then((response) => response.json())
-        .then((json) => {
-          projectsDiv = document.getElementsByClassName("projects")[0];
-          for (let p of json.projects) {
-            projectsDiv.insertAdjacentHTML(
-              "beforeend",
-              `<div class="project"> \
-        <img \
-          src="${p.imageURL}" \
-          alt="image from project" \
-        /> \
-        <div class="about"> \
-          <h3>${p.name}</h3> \
-          <h5> \
-            ${p.description} \
-          </h5> \
-        </div> \
-      </div>`
-            );
-          }
-        });
-    </script>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./index/index.css" />
+    <script src="./index/index.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -40,10 +17,33 @@
       Full-stack developer
     </h1>
     <button class="about-me">About me</button>
-    <div class="section-intro">
-      <h2 style="text-shadow: 4px 4px 0px rgba(242, 175, 41, 0.5)">Projects</h2>
-      <h4>My notable projects</h4>
-    </div>
-    <div class="projects"></div>
+    <section class="projects">
+      <div class="section-intro">
+        <h2 style="text-shadow: 4px 4px 0px rgba(6, 167, 125, 0.5)">
+          Projects
+        </h2>
+        <h4>My notable projects</h4>
+      </div>
+      <div class="projects"></div>
+      <div class="see-all">
+        <h3>Want to See More?</h3>
+        <h5>Explore all of my work on</h5>
+        <a
+          href="https://github.com/Abdullah-V?tab=repositories&q=&type=&language=&sort=stargazers"
+          target="_blank"
+          >Github</a
+        >
+      </div>
+    </section>
+    <hr>
+    <section class="experience">
+      <div class="section-intro">
+        <h2 style="text-shadow: 4px 4px 0px rgba(242, 175, 41, 0.5)">
+          Experience
+        </h2>
+        <h4>Brief summary of my work experiences</h4>
+      </div>
+      <div class="experiences"></div>
+    </section>
   </body>
 </html>
