@@ -38,7 +38,11 @@
   font-style: italic;
 }
 
-section.projects {
+section {
+  margin-top: 100px;
+}
+
+#projects {
   width: 100%;
   margin-top: 144px;
 }
@@ -124,7 +128,7 @@ div.projects {
   background-color: #161b22e9;
 }
 
-section.experience {
+#experience {
   margin-top: 100px;
 }
 
@@ -187,3 +191,79 @@ div.experience {
   font-weight: 300;
 }
 
+.bookmarks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 24px;
+  margin-top: 48px;
+}
+
+.bookmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 10px;
+  width: 48%;
+  height: 156px;
+  padding: 10px 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  border-color: #cbd5e0;
+}
+
+.bookmark img {
+  width: 120px;
+  height: 100%;
+}
+
+.bookmark .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bookmark .top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.bookmark .title {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.bookmark .description {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+.bookmark .bottom {
+  font-size: 16px;
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.bookmark .bottom .divider {
+  font-size: 48px;
+}
+
+.bookmark .domain {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 18px;
+}
+
+.bookmark .domain img {
+  width: 16px;
+  height: 16px;
+}
