@@ -1,0 +1,79 @@
+{
+    "skills": [
+        {
+            "name": "HTML",
+            "fileName": "html.svg",
+            "color": "#e44d25"
+        },
+        {
+            "name": "CSS",
+            "fileName": "css.svg",
+            "color": "#2196f3"
+        },
+        {
+            "name": "Javascript",
+            "fileName": "javascript.svg",
+            "color": "#efdb50"
+        },
+        {
+            "name": "Python",
+            "fileName": "python.svg",
+            "color": "#3570a2"
+        },
+        {
+            "name": "Vue.js",
+            "fileName": "vuejs.svg",
+            "color": "#40b883"
+        },
+        {
+            "name": "Nuxt.js",
+            "fileName": "nuxtjs.svg",
+            "color": "#2d3748"
+        },
+        {
+            "name": "React.js",
+            "fileName": "reactjs.svg",
+            "color": "#61dafb"
+        },
+        {
+            "name": "GraphQL",
+            "fileName": "graphql.svg",
+            "color": "#e536ab"
+        },
+        {
+            "name": "Node.js",
+            "fileName": "nodejs.svg",
+            "color": "#6fa560"
+        },
+        {
+            "name": "Express.js",
+            "fileName": "expressjs.svg",
+            "color": "#000000"
+        },
+        {
+            "name": "Electron.js",
+            "fileName": "electronjs.svg",
+            "color": "#2cd0ed"
+        },
+        {
+            "name": "MongoDB",
+            "fileName": "mongodb.svg",
+            "color": "#6dac48"
+        },
+        {
+            "name": "Figma",
+            "fileName": "figma.svg",
+            "color": "#a259ff"
+        },
+        {
+            "name": "Git",
+            "fileName": "git.svg",
+            "color": "#de4b36"
+        },
+        {
+            "name": "BASH",
+            "fileName": "bash.svg",
+            "color": "#293037"
+        }
+    ]
+}

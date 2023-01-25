@@ -25,7 +25,6 @@ fetch("../data/experiences.json")
   .then((response) => response.json())
   .then((json) => {
     experiencesDiv = document.querySelector("div.experiences");
-    
     for (let e of json.experiences) {
       experiencesDiv.insertAdjacentHTML(
         "beforeend",
@@ -47,7 +46,23 @@ fetch("../data/experiences.json")
           ${e.summary}
         </div>
       </div>
-      ${e.company !== "Producter" ? '<hr>' : ''}`
+      ${e.company !== "Producter" ? "<hr>" : ""}`
+      );
+    }
+  });
+
+fetch("../data/skills.json")
+  .then((response) => response.json())
+  .then((json) => {
+    skillsDiv = document.querySelector("div.skills");
+
+    for (let s of json.skills) {
+      skillsDiv.insertAdjacentHTML(
+        "beforeend",
+        `<div class="skill" style="--hc: ${s.color};">
+        <img src="./assets/icons/${s.fileName}" alt="">
+        <span>${s.name}</span>
+      </div>`
       );
     }
   });

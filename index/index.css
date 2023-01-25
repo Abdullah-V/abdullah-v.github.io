@@ -168,7 +168,6 @@ div.experience {
 .experiences hr {
   width: 80%;
   height: 1px;
-  height: 0.5px;
   display: block;
   margin: 64px auto;
   background-color: var(--gray);
@@ -210,6 +209,43 @@ div.experience {
   font-size: 20px;
   line-height: 32px;
   font-weight: 300;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 12px;
+  margin-top: 48px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  padding: 6px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 400ms all;
+}
+
+.skill:hover {
+  border-color: var(--hc);
+  color: var(--hc);
+  /* background-color: rgba(33, 150, 243, 0.1); */
+  transform: scale(1.03);
+}
+
+.skill img {
+  width: 25px;
+  height: 25px;
+}
+
+.skill span {
+  font-size: 16px;
 }
 
 .bookmarks {
