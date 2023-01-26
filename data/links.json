@@ -1,0 +1,46 @@
+{
+    "links": [
+        {
+            "name": "Email",
+            "description": "My favorite way to contact",
+            "link": "mailto:abdullahvelisoy@gmail.com",
+            "fileName": "email.svg",
+            "color": "rgba(110, 220, 255, 0.1)"
+        },
+        {
+            "name": "Github",
+            "description": "Codes & Chaos",
+            "link": "https://github.com/abdullah-v",
+            "fileName": "github.svg",
+            "color": "rgba(22, 22, 20, 0.07)"
+        },
+        {
+            "name": "LinkedIn",
+            "description": "Linkedin is professional lorem ipsum",
+            "link": "https://www.linkedin.com/in/abdullah-v",
+            "fileName": "linkedin.svg",
+            "color": "rgba(11, 102, 194, 0.07)"
+        },
+        {
+            "name": "Twitter",
+            "description": "Elon musk elon musk elon musk",
+            "link": "https://twitter.com/abdullahvelisoy",
+            "fileName": "twitter.svg",
+            "color": "rgba(29, 155, 240, 0.07)"
+        },
+        {
+            "name": "Telegram",
+            "description": "Quick chatting",
+            "link": "https://t.me/abdullahvelisoy",
+            "fileName": "telegram.svg",
+            "color": "rgba(38, 164, 226, 0.07)"
+        },
+        {
+            "name": "Instagram",
+            "description": "Almost not using, just put here for complete links to 6",
+            "link": "https://www.instagram.com/dotslashroot",
+            "fileName": "instagram.svg",
+            "color": "rgba(225, 48, 108, 0.07)"
+        }
+    ]
+}

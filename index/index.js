@@ -66,3 +66,103 @@ fetch("../data/skills.json")
       );
     }
   });
+
+fetch("../data/links.json")
+  .then((response) => response.json())
+  .then((json) => {
+    linksDiv = document.querySelector("div.links");
+
+    for (let l of json.links) {
+      linksDiv.insertAdjacentHTML(
+        "beforeend",
+        `<a href="${l.link}" target="_blank" class="link" style="--hc: ${l.color};">
+        <div>
+          <h3 class="name">${l.name}</h3>
+          <h5 class="description">${l.description}</h5>
+        </div>
+        <img src="./assets/icons/${l.fileName}" alt="">
+      </a>`
+      );
+    }
+  });
+
+window.onload = function typewriterEffect() {
+  const titles = [
+    {
+      title: "frontend developer",
+      color: "#1E6FD9",
+    },
+    {
+      title: "backend developer",
+      color: "#1D7353",
+    },
+    {
+      title: "full-stack developer",
+      color: "#1e7196",
+    },
+    {
+      title: "open sourcerer",
+      color: "#BF0426",
+    },
+    {
+      title: "mathematics student",
+      color: "#815AB4",
+    },
+    {
+      title: "web designer",
+      color: "#3FB2BF",
+    },
+    {
+      title: "freelancer",
+      color: "#9FC131",
+    },
+  ];
+
+  let titleElement = document.querySelector("#headline .typewriter .title");
+  let typeWriterElement = document.querySelector("#headline .typewriter");
+  let typing = true;
+  let currentTitleIndex = 0;
+  let currentWordLength = titles[currentTitleIndex].title.length;
+  typeWriterElement.style.color = titles[currentTitleIndex].color;
+  let currentLetterIndex = 0;
+  let typingInterval;
+  let removingInterval;
+
+  function type() {
+    if (typing) {
+      if (currentLetterIndex === currentWordLength) {
+        typing = false;
+      } else {
+        // type letter
+        titleElement.innerHTML +=
+          titles[currentTitleIndex].title[currentLetterIndex];
+        currentLetterIndex++;
+      }
+    } else {
+      clearInterval(typingInterval);
+      setTimeout(() => {
+        removingInterval = setInterval(remove, 25);
+      }, 1500);
+    }
+  }
+
+  function remove() {
+    if (titleElement.innerHTML.length) {
+      titleElement.innerHTML = titleElement.innerHTML.slice(0, -1);
+    } else {
+      if (titles.length === currentTitleIndex + 1) {
+        currentTitleIndex = 0;
+      } else {
+        currentTitleIndex++;
+      }
+      clearInterval(removingInterval);
+      typing = true;
+      typingInterval = setInterval(type, 50);
+      currentLetterIndex = 0;
+      typeWriterElement.style.color = titles[currentTitleIndex].color;
+      currentWordLength = titles[currentTitleIndex].title.length;
+    }
+  }
+
+  typingInterval = setInterval(type, 50);
+};

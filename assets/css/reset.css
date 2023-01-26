@@ -25,7 +25,7 @@ body {
   scroll-behavior: smooth;
   text-decoration: none;
   border: 0;
-  transition: 400ms background;
+  transition: 250ms background;
 }
 
 html body {
