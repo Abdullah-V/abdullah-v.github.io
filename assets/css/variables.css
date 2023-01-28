@@ -1,4 +1,37 @@
 html {
   --black: #353534;
   --gray: #868685;
+  --fs-11: 14px;
+  --fs-12: 16px;
+  --fs-13: 18px;
+  --fs-21: 20px;
+  --fs-22: 22px;
+  --fs-23: 24px;
+  --fs-31: 32px;
+  --fs-41: 48px;
+  --fs-61: 64px;
+}
+
+@media screen and (max-width: 1375px) {
+  html {
+    --fs-11: 12px;
+    --fs-13: 14px;
+    --fs-21: 16px;
+    --fs-23: 20px;
+    --fs-31: 28px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  html {
+    --fs-61: 48px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  html {
+    --fs-11: 8px;
+    --fs-13: 10px;
+    --fs-21: 12px;
+  }
 }

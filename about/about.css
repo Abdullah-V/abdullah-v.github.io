@@ -1,22 +1,22 @@
 .page-title {
-    font-size: 64px;
-    margin-bottom: 64px;
+  font-size: var(--fs-61);
+  margin-bottom: 64px;
 }
 
 .section-title {
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 16px;
+  font-size: var(--fs-31);
+  font-weight: 800;
+  margin-bottom: 16px;
 }
 
 .section-title span {
-    color: var(--gray);
-    font-size: 16px;
-    font-weight: 400;
+  color: var(--gray);
+  font-size: var(--fs-12);
+  font-weight: 400;
 }
 
 p {
-    font-size: 22px;
-    line-height: 32px;
-    margin-bottom: 48px;
+  font-size: var(--fs-22);
+  line-height: 32px;
+  margin-bottom: 48px;
 }

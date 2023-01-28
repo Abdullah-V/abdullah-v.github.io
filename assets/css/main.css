@@ -6,3 +6,9 @@ main {
   padding: 100px;
   margin-top: 48px;
 }
+
+@media screen and (max-width: 865px) {
+  main {
+    padding: 100px 50px;
+  }
+}

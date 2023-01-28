@@ -11,7 +11,7 @@
   height: 100px;
   padding: 0 100px;
   border-bottom: 2px solid #f5f5f5;
-  font-size: 18px;
+  font-size: var(--fs-13);
 }
 
 .menu svg {
@@ -40,4 +40,24 @@
 
 .menu .menu-item:hover {
   color: var(--black);
+}
+
+@media screen and (max-width: 1005px) {
+  .menu .menu-items {
+    width: 80%;
+  }
+
+  .menu svg {
+    width: 70px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .menu {
+    justify-content: center;
+  }
+  .menu .menu-items {
+    display: none;
+  }
 }
