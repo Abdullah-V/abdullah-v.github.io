@@ -12,3 +12,9 @@ main {
     padding: 100px 50px;
   }
 }
+
+@media screen and (max-width: 525px) {
+  main {
+    padding: 100px 25px;
+  }
+}
