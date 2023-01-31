@@ -6,7 +6,7 @@
             "location": "Bursa, Turkey",
             "date": "November 2022 - Current",
             "logo": "talos.jpeg",
-            "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi itaque alias hic, quos ea quas placeat aliquid veritatis illo natus at voluptatibus obcaecati. Tempora a officiis ratione doloribus quam deserunt."
+            "summary": "- Work with data from various sensors such as LIDAR, camera, GPS, IMU <br> - Develop fusion algorithms for sensor data <br> - Research, develop and apply state of art methods for autonomous vehicles"
         },
         {
             "title": "Frontend Developer",
@@ -14,7 +14,7 @@
             "location": "Remote",
             "date": "May 2021 - January 2022 (9 months)",
             "logo": "producter.png",
-            "summary": "- Played an active role in the development of modules for the application <br> - Made pixel perfect front-end development from design <br> - Conducting code reviews to improve code quality <br> - Served as release manager <br>"
+            "summary": "- Played an active role in the development of modules for the application <br> - Made pixel perfect front-end development from design <br> - Conducting code reviews to improve code quality <br> - Served as release manager"
         }
     ]
 }
