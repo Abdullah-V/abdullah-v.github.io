@@ -369,9 +369,9 @@ div.experience {
 }
 
 .bookmark .domain {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  column-gap: 6px;
+  column-gap: 6px; */
   font-size: var(--fs-13);
   color: var(--gray);
   font-weight: 300;

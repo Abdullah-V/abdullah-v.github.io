@@ -1,3 +1,33 @@
+fetch("https://website-api-abdullah-v.vercel.app/bookmarks/get-front")
+  .then((response) => response.json())
+  .then((json) => {
+    // console.log(json.bookmarks);
+    bookmarksDiv = document.querySelector("div.bookmarks");
+    for (let b of json.bookmarks) {
+      bookmarksDiv.insertAdjacentHTML(
+        "beforeend",
+        `<a
+        href="${b.link}"
+        target="_blank"
+        class="bookmark"
+      >
+        <img src="${b.cover}" />
+        <div class="right">
+          <div class="top">
+            <h3 class="title">
+              ${b.title}
+            </h3>
+            <h5 class="description">
+              ${b.description}
+            </h5>
+          </div>
+            <span class="domain">${b.domain}</span>
+        </div>
+      </a>`
+      );
+    }
+  });
+
 fetch("../data/projects.json")
   .then((response) => response.json())
   .then((json) => {
