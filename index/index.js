@@ -1,8 +1,7 @@
 fetch("https://website-api-abdullah-v.vercel.app/bookmarks/get-front")
   .then((response) => response.json())
   .then((json) => {
-    // console.log(json.bookmarks);
-    bookmarksDiv = document.querySelector("div.bookmarks");
+    let bookmarksDiv = document.querySelector("div.bookmarks");
     for (let b of json.bookmarks) {
       bookmarksDiv.insertAdjacentHTML(
         "beforeend",
@@ -31,7 +30,7 @@ fetch("https://website-api-abdullah-v.vercel.app/bookmarks/get-front")
 fetch("../data/projects.json")
   .then((response) => response.json())
   .then((json) => {
-    projectsDiv = document.querySelector("div.projects");
+    let projectsDiv = document.querySelector("div.projects");
     for (let p of json.projects) {
       projectsDiv.insertAdjacentHTML(
         "beforeend",
@@ -54,7 +53,7 @@ fetch("../data/projects.json")
 fetch("../data/experiences.json")
   .then((response) => response.json())
   .then((json) => {
-    experiencesDiv = document.querySelector("div.experiences");
+    let experiencesDiv = document.querySelector("div.experiences");
     for (let e of json.experiences) {
       experiencesDiv.insertAdjacentHTML(
         "beforeend",
@@ -84,7 +83,7 @@ fetch("../data/experiences.json")
 fetch("../data/skills.json")
   .then((response) => response.json())
   .then((json) => {
-    skillsDiv = document.querySelector("div.skills");
+    let skillsDiv = document.querySelector("div.skills");
 
     for (let s of json.skills) {
       skillsDiv.insertAdjacentHTML(
@@ -100,7 +99,7 @@ fetch("../data/skills.json")
 fetch("../data/links.json")
   .then((response) => response.json())
   .then((json) => {
-    linksDiv = document.querySelector("div.links");
+    let linksDiv = document.querySelector("div.links");
 
     for (let l of json.links) {
       linksDiv.insertAdjacentHTML(
