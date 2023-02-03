@@ -326,6 +326,7 @@ div.experience {
 
 .links .link:hover {
   background-color: var(--hc);
+  color: var(--black);
 }
 
 .links .link div {
