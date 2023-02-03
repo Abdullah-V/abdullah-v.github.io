@@ -51,6 +51,4 @@ async function getBookmarksPage() {
     });
 }
 
-// document.readyState = getBookmarksPage();
-
 window.addEventListener("load", getBookmarksPage);
