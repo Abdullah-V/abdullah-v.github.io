@@ -2,17 +2,27 @@
 @import url("./variables.css");
 @import url("./menu.css");
 
+::selection {
+  color: white;
+  background: #ff7733;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ff7733;
+}
+
 main {
   padding: 100px;
   margin-top: 48px;
 }
 
 a.link {
-  color: #FF7733;
+  color: #ff7733;
 }
 
 a.link:hover {
-  color: #DB5625;
+  color: #db5625;
 }
 
 @media screen and (max-width: 865px) {
