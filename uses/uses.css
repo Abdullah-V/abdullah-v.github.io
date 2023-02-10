@@ -1,0 +1,56 @@
+.uses {
+  width: 100%;
+  height: 800px;
+  border-radius: 12px;
+  background-image: url(/assets/ventura-wallpaper.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.apps {
+  width: 100%;
+  height: 100%;
+  padding: 36px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: rgba(35, 35, 35, 0.2);
+}
+
+.apps:after {
+  content: "";
+  flex: auto;
+}
+
+.app {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 8px;
+  cursor: pointer;
+}
+
+.app img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
+
+.app span {
+  color: rgb(221, 221, 221);
+  font-weight: 600;
+}
+
+.app:hover span {
+  color: white;
+  /* text-decoration: underline; */
+}

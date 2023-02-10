@@ -1,0 +1,39 @@
+{
+    "uses": [
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        },
+        {
+            "name": "Bitwarden",
+            "icon": "/assets/icons/bitwarden.png",
+            "link": "https://bitwarden.com"
+        }
+    ]
+}

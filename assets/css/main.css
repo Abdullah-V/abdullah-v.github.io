@@ -17,6 +17,11 @@ main {
   margin-top: 48px;
 }
 
+.page-title {
+  font-size: var(--fs-61);
+  margin-bottom: 64px;
+}
+
 a.link {
   color: #ff7733;
 }
