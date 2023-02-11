@@ -17,7 +17,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px;
+  align-content: flex-start;
+  row-gap: 32px;
+  column-gap: 8px;
   border-radius: 12px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);

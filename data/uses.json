@@ -1,9 +1,9 @@
 {
     "uses": [
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "Authy",
+            "icon": "/assets/icons/authy.png",
+            "link": "https://authy.com"
         },
         {
             "name": "Bitwarden",
@@ -11,29 +11,59 @@
             "link": "https://bitwarden.com"
         },
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "Figma",
+            "icon": "/assets/icons/figma.png",
+            "link": "https://www.figma.com"
         },
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "VS Code",
+            "icon": "/assets/icons/vscode.png",
+            "link": "https://code.visualstudio.com"
         },
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "Spark",
+            "icon": "/assets/icons/spark.png",
+            "link": "https://sparkmailapp.com"
         },
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "G. Podcasts",
+            "icon": "/assets/icons/gpodcasts.png",
+            "link": "https://podcasts.google.com"
         },
         {
-            "name": "Bitwarden",
-            "icon": "/assets/icons/bitwarden.png",
-            "link": "https://bitwarden.com"
+            "name": "Pomotroid",
+            "icon": "/assets/icons/pomotroid.png",
+            "link": "https://splode.github.io/pomotroid"
+        },
+        {
+            "name": "Raindrop",
+            "icon": "/assets/icons/raindrop.png",
+            "link": "https://raindrop.io"
+        },
+        {
+            "name": "Pocket",
+            "icon": "/assets/icons/pocket.png",
+            "link": "https://getpocket.com"
+        },
+        {
+            "name": "iTerm2",
+            "icon": "/assets/icons/iterm.png",
+            "link": "https://iterm2.com"
+        },
+        {
+            "name": "Time Out",
+            "icon": "/assets/icons/timeout.png",
+            "link": "https://www.dejal.com/timeout"
+        },
+        {
+            "name": "Tor Browser",
+            "icon": "/assets/icons/torbrowser.png",
+            "link": "https://www.torproject.org"
+        },
+        {
+            "name": "Obsidian",
+            "icon": "/assets/icons/obsidian.png",
+            "link": "https://obsidian.md"
         }
     ]
 }
