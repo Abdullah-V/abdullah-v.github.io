@@ -64,6 +64,46 @@
             "name": "Obsidian",
             "icon": "/assets/icons/obsidian.png",
             "link": "https://obsidian.md"
+        },
+        {
+            "name": "Spotify",
+            "icon": "/assets/icons/spotify.png",
+            "link": "https://spotify.com"
+        },
+        {
+            "name": "MS To Do",
+            "icon": "/assets/icons/mstodo.png",
+            "link": "https://todo.microsoft.com"
+        },
+        {
+            "name": "ProtonVPN",
+            "icon": "/assets/icons/protonvpn.png",
+            "link": "https://protonvpn.com"
+        },
+        {
+            "name": "NetNewsWire",
+            "icon": "/assets/icons/netnewswire.png",
+            "link": "https://netnewswire.com"
+        },
+        {
+            "name": "G. Calendar",
+            "icon": "/assets/icons/gcalendar.png",
+            "link": "https://calendar.google.com"
+        },
+        {
+            "name": "GeoGebra",
+            "icon": "/assets/icons/geogebra.png",
+            "link": "https://www.geogebra.org"
+        },
+        {
+            "name": "Fig",
+            "icon": "/assets/icons/fig.png",
+            "link": "https://fig.io"
+        },
+        {
+            "name": "TeXstudio",
+            "icon": "/assets/icons/texstudio.png",
+            "link": "https://www.texstudio.org"
         }
     ]
 }
