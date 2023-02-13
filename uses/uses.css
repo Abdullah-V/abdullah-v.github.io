@@ -44,15 +44,57 @@
 .app img {
   width: 64px;
   height: 64px;
-  border-radius: 8px;
 }
 
 .app span {
   color: rgb(221, 221, 221);
+  font-size: 16px;
   font-weight: 600;
 }
 
 .app:hover span {
   color: white;
   /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 955px) {
+  .uses {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .uses {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .apps:after {
+    content: none;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .uses {
+    height: auto;
+  }
+  .apps {
+    padding: 18px;
+    row-gap: 20px;
+    column-gap: 8px;
+  }
+  .app {
+    width: 80px;
+    height: 80px;
+  }
+  .app img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .app span {
+    font-size: 12px;
+    font-weight: 600;
+  }
 }
