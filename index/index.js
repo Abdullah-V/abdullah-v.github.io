@@ -134,6 +134,10 @@ window.onload = function typewriterEffect() {
       color: "#BF0426",
     },
     {
+      title: "CS self-learner",
+      color: "#F2490C",
+    },
+    {
       title: "mathematics student",
       color: "#815AB4",
     },
