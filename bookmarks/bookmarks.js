@@ -29,7 +29,7 @@ async function getBookmarksPage() {
           target="_blank"
           class="bookmark"
         >
-          <img src="${b.cover}" />
+          <img src="${b.cover}" onerror="this.src='/assets/logo.svg'" />
           <div class="right">
             <div class="top">
               <h3 class="title">
