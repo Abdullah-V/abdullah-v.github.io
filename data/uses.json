@@ -1,19 +1,9 @@
 {
     "uses": [
         {
-            "name": "Authy",
-            "icon": "/assets/icons/authy.png",
-            "link": "https://authy.com"
-        },
-        {
             "name": "Bitwarden",
             "icon": "/assets/icons/bitwarden.png",
             "link": "https://bitwarden.com"
-        },
-        {
-            "name": "Fig",
-            "icon": "/assets/icons/fig.png",
-            "link": "https://fig.io"
         },
         {
             "name": "Figma",
@@ -24,26 +14,6 @@
             "name": "G. Calendar",
             "icon": "/assets/icons/gcalendar.png",
             "link": "https://calendar.google.com"
-        },
-        {
-            "name": "G. Podcasts",
-            "icon": "/assets/icons/gpodcasts.png",
-            "link": "https://podcasts.google.com"
-        },
-        {
-            "name": "GeoGebra",
-            "icon": "/assets/icons/geogebra.png",
-            "link": "https://www.geogebra.org"
-        },
-        {
-            "name": "iTerm2",
-            "icon": "/assets/icons/iterm.png",
-            "link": "https://iterm2.com"
-        },
-        {
-            "name": "MS To Do",
-            "icon": "/assets/icons/mstodo.png",
-            "link": "https://todo.microsoft.com"
         },
         {
             "name": "NetNewsWire",
@@ -94,11 +64,6 @@
             "name": "Time Out",
             "icon": "/assets/icons/timeout.png",
             "link": "https://www.dejal.com/timeout"
-        },
-        {
-            "name": "Tor Browser",
-            "icon": "/assets/icons/torbrowser.png",
-            "link": "https://www.torproject.org"
         },
         {
             "name": "VS Code",
